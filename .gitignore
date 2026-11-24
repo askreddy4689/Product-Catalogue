@@ -1,0 +1,17 @@
+# Installed packages
+node_modules/
+
+# Build output and test coverage reports
+dist/
+coverage/
+
+# Local settings. These can hold secrets such as the SMTP password,
+# so they must never be committed. The .env.example files are safe templates.
+.env
+.env.*
+!.env.example
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db

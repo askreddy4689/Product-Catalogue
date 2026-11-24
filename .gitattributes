@@ -1,0 +1,2 @@
+# Keep Unix (LF) line endings on every computer, so the formatting check passes on Windows too.
+* text=auto eol=lf
