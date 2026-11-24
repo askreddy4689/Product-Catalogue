@@ -94,6 +94,8 @@ email provider**. Each one sits behind its own boundary, so it can change withou
 
 ## 2. Assumptions
 
+**Time taken:** under 20 minutes to list the assumptions and work on them.
+
 ### About the product as a whole
 
 1. **The website is public.** Customers don't log in, and everyone sees the same catalogue. There is
