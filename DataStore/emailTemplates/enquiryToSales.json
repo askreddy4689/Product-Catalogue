@@ -1,0 +1,6 @@
+{
+  "_id": "enquiry-to-sales",
+  "description": "Sent to the sales inbox when a customer sends an enquiry. Reply-To is the customer.",
+  "subject": "New enquiry: {{product.title}}",
+  "body": "A customer has sent an enquiry about a product.\n\nPRODUCT\nName:  {{product.title}}\nPrice: {{product.price}}\nLink:  {{product.link}}\n\nCUSTOMER\nName:  {{customer.name}}\nEmail: {{customer.email}}\nPhone: {{customer.phone}}\n\nMESSAGE\n{{customer.message}}\n\n--\nReply to this email to answer the customer directly.\n"
+}
